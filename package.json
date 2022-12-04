@@ -6,6 +6,7 @@
     "start": "next start",
     "format": "prettier --write . --ignore-path .prettierignore",
     "format:check": "prettier --check . --ignore-path .prettierignore",
+    "lint": "next lint",
     "test": "jest --watch",
     "test:ci": "jest --ci"
   },
@@ -15,11 +16,15 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "13.2.0",
     "@testing-library/user-event": "14.2.0",
     "@types/react": "18.0.9",
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13.0.6",
+    "eslint-plugin-testing-library": "^5.9.1",
     "jest": "28.1.0",
     "jest-environment-jsdom": "28.1.0",
     "postcss": "^8.4.19",
