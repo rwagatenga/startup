@@ -1,15 +1,90 @@
 {
-  "root": true,
-  "extends": ["next/core-web-vitals"],
-  "plugins": ["testing-library"],
-  "overrides": [
-    // Only uses Testing Library lint rules in test files
-    {
-      "files": [
-        "**/__tests__/**/*.[jt]s?(x)",
-        "**/?(*.)+(spec|test).[jt]s?(x)"
-      ],
-      "extends": ["plugin:testing-library/react"]
-    }
-  ]
+	"root": true,
+	"env": {
+		"es6": true,
+		"jest": true
+	},
+	"extends": [
+		"next/core-web-vitals", "prettier",
+    "eslint:recommended",
+    "airbnb"
+	],
+	"plugins": ["testing-library"],
+	"overrides": [
+		// Only uses Testing Library lint rules in test files
+		{
+			"files": [
+				"**/__tests__/**/*.[jt]s?(x)",
+				"**/?(*.)+(spec|test).[jt]s?(x)"
+			],
+			"extends": ["plugin:testing-library/react"]
+		}
+	],
+	"parser": "@babel/eslint-parser",  
+	"parserOptions": {
+		"ecmaVersion": 2020,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true,
+			"experimentalObjectRestSpread": true,
+			"classes": true
+		}
+	},
+	"rules": {
+		"react/no-unstable-nested-components": "off",
+		"function-call-argument-newline": "off",
+		"no-unused-vars": "off",
+		"no-promise-executor-return": "off",
+		"default-param-last": "off",
+		"no-console": [
+			"error",
+			{
+				"allow": [
+					"warn",
+					"error"
+				]
+			}
+		],
+		"no-var": "error",
+		"no-underscore-dangle": [
+			"error",
+			{
+				"allow": [
+					"_id",
+					"_hsq"
+				]
+			}
+		],
+		"semi": [2, "never"],
+		"indent": [ 2, 2, {
+				"SwitchCase": 1,
+				"ignoredNodes": ["JSXElement", "JSXElement > *", "JSXAttribute", "JSXIdentifier", "JSXNamespacedName", "JSXMemberExpression", "JSXSpreadAttribute", "JSXExpressionContainer", "JSXOpeningElement",
+					"JSXClosingElement", "JSXText", "JSXEmptyExpression", "JSXSpreadChild", "TemplateLiteral"]
+			} 
+		],
+		"react/jsx-filename-extension": "off",
+		"react/jsx-indent": [
+			2,
+			2,
+			{
+				"checkAttributes": true,
+				"indentLogicalExpressions": true
+			}
+		],
+		"quotes": [ "error", "single" ],
+		"comma-dangle": [
+			2,
+			"always-multiline"
+		],
+		"jsx-quotes": [
+			"error",
+			"prefer-double"
+		],
+		"object-curly-spacing": [ "error", "always", { "arraysInObjects": true } ],
+		"array-bracket-spacing": [ "error", "always", { "singleValue": false } ],
+		"no-restricted-syntax": [0],
+		"no-await-in-loop": [0],
+		"no-multiple-empty-lines": [ "error", { "max": 1, "maxEOF": 0 } ],
+		
+	}
 }
