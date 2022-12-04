@@ -1,9 +1,9 @@
 ---
 name: Generic Template
 about: Just a generic template
-title: ""
-labels: ""
-assignees: ""
+title: ''
+labels: ''
+assignees: ''
 ---
 
 ## Overview

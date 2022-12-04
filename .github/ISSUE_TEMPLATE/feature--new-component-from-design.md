@@ -1,9 +1,9 @@
 ---
-name: "Feature: New Component from Design"
+name: 'Feature: New Component from Design'
 about: Issue to use when proposing new component in the product
-title: ""
-labels: ""
-assignees: ""
+title: ''
+labels: ''
+assignees: ''
 ---
 
 ## Overview

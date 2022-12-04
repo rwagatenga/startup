@@ -78,7 +78,7 @@
         "indentLogicalExpressions": true
       }
     ],
-    "quotes": ["error", "double"],
+    "quotes": ["error", "single"],
     "comma-dangle": [2, "always-multiline"],
     "jsx-quotes": ["error", "prefer-double"],
     "object-curly-spacing": ["error", "always", { "arraysInObjects": true }],
