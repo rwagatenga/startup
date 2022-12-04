@@ -1,9 +1,9 @@
 ---
-name: "API: Creating a new endpoint"
+name: 'API: Creating a new endpoint'
 about: Issue to use when proposing new API endpoint to be created
-title: ""
-labels: ""
-assignees: ""
+title: ''
+labels: ''
+assignees: ''
 ---
 
 ## Overview
