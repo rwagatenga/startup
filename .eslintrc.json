@@ -45,7 +45,7 @@
         "allow": ["_id", "_hsq"]
       }
     ],
-    "semi": [2, "never"],
+    "semi": [2, "always"],
     "indent": [
       2,
       2,
@@ -78,7 +78,7 @@
         "indentLogicalExpressions": true
       }
     ],
-    "quotes": ["error", "single"],
+    "quotes": ["error", "double"],
     "comma-dangle": [2, "always-multiline"],
     "jsx-quotes": ["error", "prefer-double"],
     "object-curly-spacing": ["error", "always", { "arraysInObjects": true }],
