@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
 
-import Laptop from './Laptop.svg';
-import Icons from './Icons.svg';
-import Statistics from './Statistics.svg';
-import UiCard from './UiCard.svg';
-import Check from './Check.svg';
+import Laptop from '@/images/Laptop.svg';
+import Icons from '@/images/Icons.svg';
+import Statistics from '@/images/Statistics.svg';
+import UiCard from '@/images/UiCard.svg';
+import Check from '@/images/Check.svg';
 
 export class index extends Component {
   render() {
@@ -13,19 +13,18 @@ export class index extends Component {
       <header className="hero-section overflow-hidden text-center bg-gradient-to-t from-sky-900 bg-opacity-20">
         <section className="pt-8 container mx-auto">
           <h1 className="text-4xl font-bold">
-            Build your{' '}
+            Enhance your{' '}
             <span className="inline-block p-1 bg-yellow-400 text-black">
               business
             </span>{' '}
-            on a{' '}
+            with{' '}
             <span className="inline-block p-1 border px-2 border-yellow-400">
-              strong
+              us
             </span>{' '}
-            structure
           </h1>
           <p className="text-gray-300 my-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-            Lorem netus lacinia convallis nisl
+            Achieve your business goals with our innovative and <br />
+             dependable solutions.
           </p>
           <section className="flex gap-3 mt-4 justify-center">
             <button className="p-2 px-3 rounded bg-white text-black">
