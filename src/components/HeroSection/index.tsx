@@ -24,7 +24,7 @@ export class index extends Component {
           </h1>
           <p className="text-gray-300 my-2">
             Achieve your business goals with our innovative and <br />
-             dependable solutions.
+            dependable solutions.
           </p>
           <section className="flex gap-3 mt-4 justify-center">
             <button className="p-2 px-3 rounded bg-white text-black">
