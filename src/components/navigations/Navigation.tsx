@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../../public/logo.png';
+import Logo from '../../../public/logo.png';
 
 export class Navigation extends Component {
   render() {
