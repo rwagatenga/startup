@@ -1,3 +1,4 @@
+import Card from '@/components/card/Card';
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Start Up Web</h1>;
+  return <Card>Hello</Card>;
 }
