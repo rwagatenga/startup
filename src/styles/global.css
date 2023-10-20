@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #010f19;
+  color: white;
+}
+
+.hero-section {
+  @apply pt-20;
+}
+
+.navigation {
+  @apply fixed right-0 left-0 top-0  backdrop-blur-lg z-50;
+}
+
+.navigation-section {
+  @apply flex items-center justify-between container mx-auto py-2 text-white;
+}
+
+.navigation ul {
+  @apply flex;
+}
+
+.navigation a {
+  @apply border-b-2 border-transparent px-3 py-2 text-blue-200 hover:text-white hover:border-blue-700;
+}
+
+.gradient-shadow-one {
+  box-shadow: 1px 1px 233px 158px #dff200;
+}
+
+.gradient-shadow-two {
+  box-shadow: 1px 1px 233px 158px #00d1ff;
+}
+
+.gradient-shadow-three {
+  box-shadow: 1px 1px 233px 158px #ff0303;
+}

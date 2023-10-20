@@ -1,4 +1,4 @@
-import Card from '@/components/card/Card';
+import HeroSectionPage from '@/layouts/HeroSection';
 export default function Home() {
-  return <Card>Hello</Card>;
+  return <HeroSectionPage />;
 }
