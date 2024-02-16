@@ -23,7 +23,7 @@ export class Navigation extends Component {
                 <Link href={'#'}>Services</Link>
               </li>
               <li>
-                <Link href={'#'}>Contact Use</Link>
+                <Link href={'#'}>Contact Us</Link>
               </li>
             </ul>
           </section>

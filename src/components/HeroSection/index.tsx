@@ -14,12 +14,12 @@ export class index extends Component {
         <section className="pt-8 container mx-auto">
           <h1 className="text-4xl font-bold">
             Enhance your{' '}
-            <span className="inline-block p-1 bg-yellow-400 text-black">
+            <span className="inline-block p-1 bg-yellow text-black">
               business
             </span>{' '}
             with{' '}
-            <span className="inline-block p-1 border px-2 border-yellow-400">
-              us
+            <span className="inline-block p-1 border px-2 border-yellow text-yellow">
+              Us
             </span>{' '}
           </h1>
           <p className="text-gray-300 my-2">
@@ -27,10 +27,10 @@ export class index extends Component {
             dependable solutions.
           </p>
           <section className="flex gap-3 mt-4 justify-center">
-            <button className="p-2 px-3 rounded bg-white text-black">
+            <button className="p-2 px-3 rounded bg-white text-black font-semibold">
               Get Started
             </button>
-            <button className="p-2 px-3 rounded text-white border">
+            <button className="p-2 px-3 rounded text-white border font-medium">
               For developers
             </button>
           </section>
