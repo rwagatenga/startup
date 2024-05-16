@@ -14,17 +14,17 @@ module.exports = {
         '55.62': '55.62%',
         '8.86': '8.86%',
         '54.63': '54.63%',
-        '1245': '1245px',  // Custom width for the main container
-        '455': '455px',    // Custom width for the lines
-        '21': '21px',      // Custom top position for the lines based on half the container height (assuming height: '42px')
-        '3921.64': '3921.64px', // Custom top position for the main container
-        '232': '232px',     // Custom width for the text container
-        '134': '134px',     // Custom left position for the first line
-        '641': '641px',     // Custom left position for the text container
+        '1245': '1245px',
+        '455': '455px',
+        '21': '21px',
+        '3921.64': '3921.64px',
+        '232': '232px',
+        '134': '134px',
+        '641': '641px',
         '924': '924px',
       },
       borderColor: {
-        'custom-gray': '#DBDBDB', // Custom border color
+        'custom-gray': '#DBDBDB',
       },
       colors: {
         '0ff542': '#0FF542',
@@ -40,7 +40,7 @@ module.exports = {
         '42': '42px'
       },
       fontFamily: {
-        'inter': ['Inter', 'sans-serif'], // Assuming 'Inter' font is declared
+        'inter': ['Inter', 'sans-serif'],
       }
     },
     colors: {
