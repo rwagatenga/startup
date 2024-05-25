@@ -25,6 +25,7 @@ module.exports = {
       },
       borderColor: {
         'custom-gray': '#DBDBDB',
+        '100': '#C7C7C7'
       },
       colors: {
         '0ff542': '#0FF542',
@@ -56,6 +57,8 @@ module.exports = {
       green: {
         100: '#37FA2C',
         200: '#172617',
+        600: '#008C12'
+
       },
       yellow: '#DFF200',
       white: colors.white,
