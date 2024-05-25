@@ -1,6 +1,8 @@
 import Navigation from '@/components/navigations/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
+import CallToAction from '@/components/Call-To-Action/CallToAction';
+import Footer from '@/components/footer/Footer';
 
 const HeroSectionPage = () => {
   return (
@@ -15,7 +17,9 @@ const HeroSectionPage = () => {
         </p>
       </div>
       <AboutSection />
-      <div className="min-h-screen"></div>
+      <CallToAction/>
+      <Footer/>
+      {/* <div className="min-h-screen"></div> */}
     </div>
   );
 };
