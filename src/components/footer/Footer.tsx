@@ -78,7 +78,7 @@ const Footer = ()=>{
                              py-2 relative">
                         <input type="email"
                           className="border-none outline-none bg-blue-400 appearance-none py-[7px] peer" />
-                        <label className="text-lg absolute top-3 transition-all duration-300 peer-focus:top-[-5px] peer-focus:text-[8.81px] peer-invalid:top-[-5px] peer-invalid:text-[8.81px] pointer-events-none">Your email</label>
+                        <label className="text-lg absolute top-3 transition-all duration-300 peer-focus:top-[-5px] peer-focus:text-[8.81px] peer-focus:text-blue-100 peer-invalid:top-[-5px] peer-invalid:text-[8.81px] pointer-events-none">Your email</label>
                     </div>
                     <button type="submit" className="font-bold text-blue-100">Subscribe</button>
                 </div>
