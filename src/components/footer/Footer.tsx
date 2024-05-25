@@ -33,7 +33,7 @@ const Footer = ()=>{
         <>
           <footer className="mt-8 bg-blue-600 w-full lg:h-[356.32px] 
                              lg:items-center flex justify-around
-                              pl-[130px] pr-[92.55px] font-inter gap-2 flex-wrap">
+                              pl-[130px] pr-[110px] font-inter gap-2 flex-wrap">
             <article className="basis-[295px] flex flex-col gap-2">
                <Image src={logo} alt=""/>
                <p>Lorem ipsum dolor sit amet consectetur. Ac quis et dictum vestibulum. 
