@@ -37,8 +37,8 @@ const AboutSection = () => {
       <section className="pt-8 container mx-auto flex flex-wrap justify-between">
         <div className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 p-4">
           <p className="relative top-[19.53%] bottom-[55.62%] left-[1.86%] right-[54.63%] text-transparent bg-gradient-to-b from-[#0FF542] to-[#00D1FF] bg-clip-text font-semibold text-[44px] leading-[53px] font-inter">
-            Unlock the full potential
-            of your software with our scalable solutions
+            Unlock the full potential of your software with our scalable
+            solutions
           </p>
           <div className="relative top-[22.89%] bottom-[26.86%] left-[1.86%] right-[60.98%] text-white font-normal text-[20px] leading-6 font-inter opacity-80">
             <p>Scaling your software is crucial for the growth</p>
@@ -61,7 +61,7 @@ const AboutSection = () => {
 
       <section className="pt-8 container mx-auto flex flex-wrap justify-between">
         <div className="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 p-4">
-        <Image
+          <Image
             src={Folders}
             alt="Folders image"
             className="relative left-2"
@@ -72,7 +72,9 @@ const AboutSection = () => {
             Achieve project success with our proven project management structure
           </p>
           <p className="relative top-[25.61%] bottom-[29.39%] left-[9.24%] right-[11.06%] text-white font-normal text-[20px] leading-[24px] font-inter">
-            Project management is critical to the success of any project. With our proven project management structure, we can help you achieve your project objectives on-time, on-budget, and with high quality.
+            Project management is critical to the success of any project. With
+            our proven project management structure, we can help you achieve
+            your project objectives on-time, on-budget, and with high quality.
           </p>
         </div>
       </section>
@@ -121,7 +123,6 @@ const AboutSection = () => {
         <div className="w-full">
           {/* Main Container */}
           <div className="relative w-[100%] h-42 -left-24 top-20">
-
             {/* Line 1 */}
             <div className="absolute border-t border-custom-gray w-[35%] h-0 left-134 top-21"></div>
 
@@ -132,7 +133,6 @@ const AboutSection = () => {
 
             {/* Line 2 */}
             <div className="absolute border-t border-custom-gray w-[35%] h-0 left-924 top-21"></div>
-
           </div>
         </div>
       </section>

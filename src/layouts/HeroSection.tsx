@@ -17,9 +17,8 @@ const HeroSectionPage = () => {
         </p>
       </div>
       <AboutSection />
-      <CallToAction/>
-      <Footer/>
-      {/* <div className="min-h-screen"></div> */}
+      <CallToAction />
+      <Footer />
     </div>
   );
 };
