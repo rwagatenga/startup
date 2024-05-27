@@ -1,8 +1,7 @@
 import Navigation from '@/components/navigations/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
-import ServicesSection from '@/components/ServicesSection';
-import Testmonials from '@/components/TestmoialsSection';
+
 
 const HeroSectionPage = () => {
   return (
@@ -17,10 +16,6 @@ const HeroSectionPage = () => {
         </p>
       </div>
       <AboutSection />
-      <div className="mt-44"></div>
-      <ServicesSection />
-      <div className="mt-44"></div>
-      <Testmonials/>
       <div className="min-h-screen"></div>
       
     </div>

@@ -9,16 +9,16 @@ const ServicesSection = () => {
 
     return (
         <>
-            <section className="mx-20">
-                <section className="flex flex-wrap w-full">
+            <section className="pt-8 container mx-auto flex flex-wrap justify-between mt-44">
+                <div className="w-full flex flex-wrap">
                     <div className="w-1/4">
                         <Image
                             src={Group1}
                             alt=''
                             className="w-32 h-32 rounded-2xl"
                         />
-                        <p className="text-xl font-bold mt-2">Simplify complex data with<br />our expert database design<br />
-                            services</p>
+                        <h1 className="text-2xl font-bold mt-2">Simplify complex data with<br />our expert database design<br />
+                            services</h1>
                         <p className="mt-2 text-xl">
                             Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. <br />Lorem netus lacinia convallis.
                         </p>
@@ -29,9 +29,9 @@ const ServicesSection = () => {
                             alt=''
                             className="w-32 h-32 rounded-2xl"
                         />
-                        <p className="text-3xl font-bold mt-5">
+                        <h2 className="text-2xl font-bold mt-5">
                             Complex<br /> Database Design
-                        </p>
+                        </h2>
                         <p className="mt-3 text-xl">
                             Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.<br /> Lorem netus lacinia convallis.
                         </p>
@@ -42,9 +42,9 @@ const ServicesSection = () => {
                             alt=''
                             className="w-32 h-32 rounded-2xl"
                         />
-                        <p className="text-3xl font-bold mt-5">
+                        <h3 className="text-2xl font-bold mt-5">
                             Complex<br /> Database Design
-                        </p>
+                        </h3>
                         <p className="mt-3 text-xl">
                             Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.<br /> Lorem netus lacinia convallis.
                         </p>
@@ -55,24 +55,24 @@ const ServicesSection = () => {
                             alt=''
                             className="w-32 h-32 rounded-2xl"
                         />
-                        <p className="text-3xl font-bold mt-5">
+                        <h3 className="text-2xl font-bold mt-5">
                             Complex<br /> Database Design
-                        </p>
+                        </h3>
                         <p className="mt-3 text-xl">
                             Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.<br /> Lorem netus lacinia convallis.
                         </p>
                     </div>
-                </section>
-                <section className="flex flex-wrap  w-full mt-10">
+                </div>
+                <div className="w-full mt-10 flex flex-wrap">
                     <div className="w-1/4">
                         <Image
                             src={Archieve}
                             alt=''
                             className="w-32 h-32 rounded-2xl"
                         />
-                        <p className="text-3xl font-bold mt-5">
+                        <h4 className="text-2xl font-bold mt-5">
                             Complex<br /> Database Design
-                        </p>
+                        </h4>
                         <p className="mt-3 text-xl">
                             Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.<br /> Lorem netus lacinia convallis.
                         </p>
@@ -83,9 +83,9 @@ const ServicesSection = () => {
                             alt=''
                             className="w-32 h-32 rounded-2xl"
                         />
-                        <p className="text-3xl font-bold mt-5">
+                        <h5 className="text-2xl font-bold mt-5">
                             Complex<br /> Database Design
-                        </p>
+                        </h5>
                         <p className="mt-3 text-xl">
                             Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.<br /> Lorem netus lacinia convallis.
                         </p>
@@ -96,9 +96,9 @@ const ServicesSection = () => {
                             alt=''
                             className="w-32 h-32 rounded-2xl"
                         />
-                        <p className="text-3xl font-bold mt-5">
+                        <h6 className="text-2xl font-bold mt-5">
                             Complex<br /> Database Design
-                        </p>
+                        </h6>
                         <p className="mt-3 text-xl">
                             Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.<br /> Lorem netus lacinia convallis.
                         </p>
@@ -109,25 +109,25 @@ const ServicesSection = () => {
                             alt=''
                             className="w-32 h-32 rounded-2xl"
                         />
-                        <p className="text-3xl font-bold mt-5">
+                        <h6 className="text-2xl font-bold mt-5">
                             Complex<br /> Database Design
-                        </p>
+                        </h6>
                         <p className="mt-3 text-xl">
                             Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.<br /> Lorem netus lacinia convallis.
                         </p>
                     </div>
-                </section>
+                </div>
 
             </section>
 
-            <section className="pt-8 container mx-auto flex flex-wrap justify-between">
+            <section className="pt-8 container mx-auto flex flex-wrap justify-center">
                 <div className="w-full">
                     <div className="relative w-[100%] h-42 -left-20 top-20">
-                        <div className="absolute border-t border-custom-gray w-[35%] h-0 left-134 top-21"></div>
-                        <div className="absolute w-[21%] h-42 left-641 top-0 flex items-center justify-center font-inter font-normal text-35 leading-42 text-white">
+                        <div className="absolute border-t border-custom-gray w-[37%] h-0 left-134 top-21 -ml-12"></div>
+                        <div className="absolute w-[19%] h-42 left-641 top-0 flex items-center justify-center font-inter font-normal text-35 leading-42 text-white">
                             Testmonials
                         </div>
-                        <div className="absolute border-t border-custom-gray w-[35%] h-0 left-924 top-21"></div>
+                        <div className="absolute border-t border-custom-gray w-[37%] h-0 left-924 top-21"></div>
 
                     </div>
                 </div>
