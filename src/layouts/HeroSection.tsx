@@ -1,7 +1,7 @@
 import Navigation from '@/components/navigations/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
-import CallToAction from '@/components/Call-To-Action/CallToAction';
+import GetInTouch from '@/components/GetInTouch/GetInTouch';
 import Footer from '@/components/footer/Footer';
 
 const HeroSectionPage = () => {
@@ -17,7 +17,7 @@ const HeroSectionPage = () => {
         </p>
       </div>
       <AboutSection />
-      <CallToAction />
+      <GetInTouch />
       <Footer />
     </div>
   );

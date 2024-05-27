@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
-
-const CallToAction = () => {
+const GetInTouch = () => {
   return (
     <>
       <section className="pt-8 container mx-auto flex justify-center">
@@ -25,4 +23,4 @@ const CallToAction = () => {
     </>
   );
 };
-export default CallToAction;
+export default GetInTouch;

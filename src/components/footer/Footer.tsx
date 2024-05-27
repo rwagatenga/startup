@@ -31,7 +31,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="mt-8 bg-blue-600 w-full lg:h-[356.32px] 
+        className="mt-8 bg-blue-600 w-full lg:h-[356.32px]
                              lg:items-center flex justify-around
                               pl-[130px] pr-[110px] font-inter gap-2 flex-wrap"
       >
@@ -87,12 +87,12 @@ const Footer = () => {
         <section className="flex flex-col gap-10">
           <div
             className="border-[1px] border-blue-200
-                              bg-blue-400 flex items-center 
+                              bg-blue-400 flex items-center
                               w-96 h-16 gap-4 py-9 px-2 rounded-xl font-inter"
           >
             <div
               className="flex flex-col border-[0.73px]
-                             border-100 bg-blue-400 rounded-xl pl-3 
+                             border-100 bg-blue-400 rounded-xl pl-3
                              py-2 relative"
             >
               <input
@@ -109,38 +109,13 @@ const Footer = () => {
           </div>
           <div>
             <ul className="flex gap-x-[3.2rem] items-center">
-              {socialLinks.map(image => (
-                <li>
+              {socialLinks.map((image, index) => (
+                <li key={index + 1}>
                   <Link href={'#'}>
                     <Image src={image.Image} alt="twitter"></Image>
                   </Link>
                 </li>
               ))}
-              {/* <li>
-                            <Link href={'#'}>
-                                <Image src={twitter} alt="twitter"></Image>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href={'#'} >
-
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href={'#'}>
-
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href={'#'}>
-
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href={'#'}>
-
-                            </Link>
-                        </li> */}
             </ul>
           </div>
         </section>
