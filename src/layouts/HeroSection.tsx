@@ -2,7 +2,6 @@ import Navigation from '@/components/navigations/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 
-
 const HeroSectionPage = () => {
   return (
     <div className="min-h-screen">
@@ -17,7 +16,6 @@ const HeroSectionPage = () => {
       </div>
       <AboutSection />
       <div className="min-h-screen"></div>
-      
     </div>
   );
 };
