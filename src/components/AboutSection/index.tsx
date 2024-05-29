@@ -5,6 +5,8 @@ import UIElevate from '@/images/Elevate.png';
 import PointerImage from '@/images/Group 88.png';
 import Folders from '@/images/Group 90.svg';
 import Screen from '@/images/screen.svg';
+import ServicesSection from '../ServicesSection';
+import Testmonials from '../TestmoialsSection';
 
 const AboutSection = () => {
   return (
@@ -119,23 +121,19 @@ const AboutSection = () => {
           </div>
         </div>
       </section>
-      <section className="pt-8 container mx-auto flex flex-wrap justify-between">
+      <section className="pt-8 container mx-auto flex flex-wrap justify-center">
         <div className="w-full">
-          {/* Main Container */}
-          <div className="relative w-[100%] h-42 -left-24 top-20">
-            {/* Line 1 */}
-            <div className="absolute border-t border-custom-gray w-[35%] h-0 left-134 top-21"></div>
-
-            {/* Text */}
+          <div className="relative w-[100%] h-42 -left-20 top-20">
+            <div className="absolute border-t border-custom-gray w-[36%] h-0 top-21 left-144 ml-20"></div>
             <div className="absolute w-[18%] h-42 left-641 top-0 flex items-center justify-center font-inter font-normal text-35 leading-42 text-white">
-              More services
+              More Services
             </div>
-
-            {/* Line 2 */}
-            <div className="absolute border-t border-custom-gray w-[35%] h-0 left-924 top-21"></div>
+            <div className="absolute border-t border-custom-gray w-[36%] h-0 left-924 top-21"></div>
           </div>
         </div>
       </section>
+      <ServicesSection />
+      <Testmonials />
     </>
   );
 };
