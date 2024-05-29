@@ -10,18 +10,18 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        '19.53': '19.53%',
-        '55.62': '55.62%',
-        '8.86': '8.86%',
-        '54.63': '54.63%',
-        '1245': '1245px',
-        '455': '455px',
-        '21': '21px',
-        '3921.64': '3921.64px',
-        '232': '232px',
-        '134': '134px',
-        '641': '641px',
-        '924': '924px',
+        19.53: '19.53%',
+        55.62: '55.62%',
+        8.86: '8.86%',
+        54.63: '54.63%',
+        1245: '1245px',
+        455: '455px',
+        21: '21px',
+        3921.64: '3921.64px',
+        232: '232px',
+        134: '134px',
+        641: '641px',
+        924: '924px',
       },
       borderColor: {
         'custom-gray': '#DBDBDB',
@@ -33,15 +33,15 @@ module.exports = {
       },
       fontSize: {
         '44px': '44px',
-        '35': '35px'
+        35: '35px',
       },
       lineHeight: {
         '53px': '53px',
-        '42': '42px'
+        42: '42px',
       },
       fontFamily: {
-        'inter': ['Inter', 'sans-serif'],
-      }
+        inter: ['Inter', 'sans-serif'],
+      },
     },
     colors: {
       blue: {
@@ -64,7 +64,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       '0ff542': '#0FF542',
-      '00d1ff': '#00D1FF'
+      '00d1ff': '#00D1FF',
     },
     fontFamily: {
       inter: ['Inter', 'sans-serif'],
